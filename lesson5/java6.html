@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Олосях</title>
+</head>
+<body>
+    <div id="text"></div>
+    <input type="button" id="btn" value="Кнопка" onclick="a()">
+    <input type="button" id="btn2" value="Покрасить" onclick="what()">
+    <script>
+        function a() {
+            var text = document.getElementById('text');
+            text.innerHTML = "Тут появился текст, доволен?"
+        }
+        function what() {
+            text.style="color:red;"
+        }
+    </script>
+</body>
+</html>
